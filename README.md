@@ -18,7 +18,7 @@ git clone <download_link>
 From R:
 
 ```
-gert::git_clone(<download_link>)
+gert::git_clone("<download_link>")
 ```
 
 
