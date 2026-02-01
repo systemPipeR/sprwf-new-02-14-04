@@ -14,8 +14,6 @@ can be found on the project's dedicated website:
 
 __Download of Workflow__
 
-Downloading the Workflow
-
 To obtain this workflow, run one of the following commands. The `<download_link>`
 is located under the green "Code" button on the top right of the repository,
 with the HTTPS option generally being the most straightforward for most users.
