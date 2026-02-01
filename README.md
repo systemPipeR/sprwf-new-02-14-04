@@ -1,6 +1,10 @@
 ## systemPipeRdata: Generic Workflow Template
 
-This is the Generic Workflow Template for systemPipeRdata.
+This Generic Workflow Template is compatible with the systemPipeR Workflow
+Management System (WMS). For detailed information on designing, setting up, and
+running workflows with systemPipeR, consult the user manuals for [systemPipeR](https://bioconductor.org/packages/devel/bioc/html/systemPipeR.html)
+and [systemPipeRdata](https://www.bioconductor.org/packages/devel/data/experiment/html/systemPipeRdata.html). Additional resources, including a list of available
+workflow templates, can be found on the project's dedicated website [here](https://systempipe.org/about/project/). 
 
 __Usage__
 
