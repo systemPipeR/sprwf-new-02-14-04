@@ -1,4 +1,4 @@
-## SystemPipeRdata: Generic Workflow Template
+## systemPipeRdata: Generic Workflow Template
 
 This is the Generic Workflow Template for systemPipeRdata.
 
