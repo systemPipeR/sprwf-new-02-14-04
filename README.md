@@ -2,7 +2,7 @@
 
 <p align="right">
   <a href="https://systempipe.org/sprwf-new-02-14-04/new.html">
-    <img src="https://img.shields.io/badge/TUTORIAL-green?style=for-the-badge&logo=gitbook&logoColor=white" alt="Tutorial Badge">
+    <img src="https://img.shields.io/badge/TUTORIAL-blue?style=for-the-badge&logo=gitbook&logoColor=white" alt="Tutorial Badge">
   </a>
 </p>
 
