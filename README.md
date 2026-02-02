@@ -1,5 +1,7 @@
 ## systemPipeRdata: Generic Workflow Template
 
+[![View Live Report](https://img.shields.io)](https://systempipe.org/sprwf-new-02-14-04/new.html)
+
 This is a workflow of the systemPipeR Workflow Management System (WMS).
 Detailed information about this specific workflow is available [here](https://systempipe.org/sprwf-new-02-14-04/new.html).
 
