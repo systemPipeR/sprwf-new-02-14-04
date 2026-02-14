@@ -11,6 +11,6 @@ systemPipeRdata:
 
 param:
   name: sprwfcmp-param
-  repo: "https://github.com/systemPipeR/sprwf-param"
+  repo: "https://github.com/systemPipeR/sprwfcmp-param"
   tag: "v1.1.1"
 
