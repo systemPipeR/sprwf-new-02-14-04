@@ -1,0 +1,16 @@
+schema: 1
+type: workflow
+name: sprwf-new
+version: "wf-1.1.1"
+
+systemPipeR:
+  bioc_min: "2.17.1"
+
+systemPipeRdata:
+  bioc_min: "2.15.4"
+
+param:
+  name: sprwfcmp-param
+  repo: "https://github.com/systemPipeR/sprwf-param"
+  tag: "v1.1.1"
+
