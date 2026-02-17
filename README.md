@@ -6,10 +6,6 @@
   </a>
 </p>
 
-![R](https://img.shields.io/badge/R-%3E%3D4.2-blue)
-![Bioconductor](https://img.shields.io/badge/Bioc-release-green)
-![Workflow Version](https://img.shields.io/badge/workflow-wf--1.1.1-orange)
-
 This is a lightweight, versioned workflow template for conducting data analyses
 with the [systemPipeR Workflow Management
 System](https://systempipe.org/about/project/) (WMS). It ensures consistency
