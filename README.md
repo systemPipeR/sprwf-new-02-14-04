@@ -17,7 +17,7 @@ through centrally maintained [param]() and [data]() packs, which are defined in
 Detailed information about this specific `sprwf-new` workflow is available 
 [here](https://systempipe.org/sprwf-new/new.html).
 
-> Note: The data pack includes sample data useful for testing certain workflows. Users who do not require this sample data can skip the download step under the getData_gh section below. 
+> Note: The data pack includes sample data useful for testing certain workflows. Users who do not require this sample data can skip the download step under the `getData_gh` section below. 
 
 __Documentation__
 
@@ -44,8 +44,9 @@ setwd("sprwf-new")
 getParam_gh()
 getData_gh()
 ```
+> Note: `param/` and `data/` directories are protected by default. If they already exist, they are backed up before new files are installed. See `?getParam_gh` and `?getData_gh` for overwrite options.
 
-Version dependencies defined in `manifest.yml`:
+The version dependencies are defined in `manifest.yml`:
 
 | Field                    | Value            |
 | ------------------------ | ---------------- |
