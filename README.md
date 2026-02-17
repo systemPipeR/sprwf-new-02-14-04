@@ -23,7 +23,7 @@ To design, set up, and run workflows using systemPipeR, please consult:
   + [systemPipeR Manual](https://bioconductor.org/packages/devel/bioc/html/systemPipeR.html)
   + [systemPipeRdata Manual](https://www.bioconductor.org/packages/devel/data/experiment/html/systemPipeRdata.html)
 
-A complete list of workflow templates and project information is available at [systempipe.org](https://systempipe.org/about/project/).
+👉 A complete list of workflow templates and project information is available at [systempipe.org](https://systempipe.org/about/project/).
 
 __Version dependencies defined in `manifest.yml`__
 
