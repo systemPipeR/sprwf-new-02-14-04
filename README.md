@@ -86,5 +86,7 @@ From the command-line:
 git clone <download_link>
 ```
 
-After this the `param` and `data` directories need to be populated as shown above.  
+After this the `param` and `data` directories need to be populated as shown above, or 
+manually by copying the corresponding directories of the `sprwfcmp-param` and `sprwfcmp-data` 
+repos into the workflow repository.  
 
