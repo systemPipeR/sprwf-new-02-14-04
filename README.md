@@ -31,15 +31,15 @@ From the command-line:
 git clone <download_link>
 ```
 
-From R:
+From R (no Git CLI required):
 
 ```
 gert::git_clone("<download_link>")
 ```
 
-Alternative R-based setup that populates `param` and `data` directories of
-workflow environment in separate steps (no Git CLI required). For details 
-see: `?genWorkenvir_gh`, `?getParam_gh`, and `?getData_gh`.
+Alternative R-based setup that populates the `param` and `data` directories of
+the downloaded workflow environment in separate steps (no Git CLI required). 
+For more information, consult the help pages: `?genWorkenvir_gh`, `?getParam_gh`, and `?getData_gh`.
 
 ```
 library(systemPipeRdata) 
