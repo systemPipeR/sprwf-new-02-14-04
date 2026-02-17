@@ -42,7 +42,7 @@ library(systemPipeRdata)
 genWorkenvir_gh(url = "https://github.com/systemPipeR/sprwf-new.git", mydirname = "sprwf-new")
 setwd("sprwf-new")
 getParam_gh()
-getData_gh()
+getData_gh() # omit if sample data is not needed
 ```
 > Note: `param/` and `data/` directories are protected by default. If they already exist, they are backed up before new files are installed. See `?getParam_gh` and `?getData_gh` for overwrite options.
 
