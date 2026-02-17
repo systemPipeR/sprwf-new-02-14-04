@@ -1,5 +1,8 @@
 ## Generic Workflow Template for systemPipeR WMS
 
+![R](https://img.shields.io/badge/R-%3E%3D4.2-blue)
+![Bioconductor](https://img.shields.io/badge/Bioc-release-green)
+![Workflow Version](https://img.shields.io/badge/workflow-wf--1.1.1-orange)
 <p align="right">
   <a href="https://systempipe.org/sprwf-new/new.html">
     <img src="https://img.shields.io/badge/TUTORIAL-blue?style=for-the-badge&logo=gitbook&logoColor=white" alt="Tutorial Badge">
@@ -23,7 +26,7 @@ To design, set up, and run workflows using systemPipeR, please consult:
 
 A complete list of workflow templates and project information is available at [systempipe.org](https://systempipe.org/about/project/).
 
-__Version dependencies defined in `manifest.yml`
+__Version dependencies defined in `manifest.yml`__
 
 | Field                    | Value            |
 | ------------------------ | ---------------- |
@@ -37,6 +40,13 @@ __Version dependencies defined in `manifest.yml`
 
 __Quick Start (Recommended)__
 
+The following will:
+
+  + Clone the workflow (no Git CLI required)
+  + Enforce minimum package versions
+  + Install the exact tagged param/ and data/ releases
+  + Create a reproducible local workflow environment
+
 ```
 library(systemPipeRdata)
 genWorkenvir_gh(url = "https://github.com/systemPipeR/sprwf-new.git", mydirname = "sprwf-new")
@@ -45,12 +55,6 @@ getParam_gh()
 getData_gh()
 ```
 
-This will:
-
-  + Clone the workflow
-  + Enforce minimum package versions
-  + Install the exact tagged param/ and data/ releases
-  + Create a reproducible local workflow environment
 
 __Download of Workflow__
 
