@@ -37,4 +37,14 @@ From R:
 gert::git_clone("<download_link>")
 ```
 
+Alternative R option that allows to populate `param` and `data` directories in separate steps.
+
+```
+library(systemPipeRdata) 
+if (packageVersion("systemPipeRdata") < "2.14.5") { stop("systemPipeRdata >= 2.14.5 is required.", call. = FALSE) }
+genWorkenvir_gh(url="https://github.com/systemPipeR/sprwf-new.git", "sprwf-new", force_min_version=FALSE)
+setwd("sprwf-new)
+getParam_gh(param_repo="https://github.com/systemPipeR/sprwfcmp-param.git")
+getData_gh(data_repo="https://github.com/systemPipeR/sprwfcmp-data.git")
+```
 
