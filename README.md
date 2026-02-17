@@ -17,7 +17,7 @@ through centrally maintained [param]() and [data]() packs, which are defined in
 Detailed information about this specific `sprwf-new` workflow is available 
 [here](https://systempipe.org/sprwf-new/new.html).
 
-> The download of the data pack (see `getData_gh`) is optional for some workflows.
+> Note: The data pack includes sample data useful for testing certain workflows. Users who do not require this sample data can skip the download step under the getData_gh section below. 
 
 __Documentation__
 
