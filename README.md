@@ -1,11 +1,13 @@
 ## Generic Workflow Template for systemPipeR WMS
 
+<align="right">
+  <a href="https://systempipe.org/sprwf-new/new.html">
+    <img src="https://img.shields.io/badge/TUTORIAL-blue?style=for-the-badge&logo=gitbook&logoColor=white" alt="Tutorial Badge">
+  </a>
+</p>
 ![R](https://img.shields.io/badge/R-%3E%3D4.2-blue)
 ![Bioconductor](https://img.shields.io/badge/Bioc-release-green)
 ![Workflow Version](https://img.shields.io/badge/workflow-wf--1.1.1-orange)
-  <a href="https://systempipe.org/sprwf-new/new.html">
-    <img src="https://img.shields.io/badge/TUTORIAL-blue?style=for-the-badge&logo=gitbook&logoColor=white" alt="Tutorial Badge" style="float: right;">
-  </a>
 
 This is a lightweight, versioned workflow template for conducting data analyses
 with the [systemPipeR Workflow Management
