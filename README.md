@@ -6,12 +6,14 @@
   </a>
 </p>
 
-This lightweight, versioned workflow template is designed for reproducible
-analysis using the [systemPipeR Workflow Management System](https://systempipe.org/about/project/) (WMS). It ensures
-consistency by utilizing centrally downloaded parameter and data packs defined in `manifest.yml` that are installed locally 
-during the setup process. 
+This is a lightweight, versioned workflow template for conducting data analyses
+with the [systemPipeR Workflow Management
+System](https://systempipe.org/about/project/) (WMS). It ensures consistency
+through centrally maintained parameter and data packs, which are defined in
+`manifest.yml` and downloaded and installed during the setup process.
 
-Detailed information about this specific workflow is available [here](https://systempipe.org/sprwf-new/new.html).
+Detailed information about this specific `sprwf-new` workflow is available 
+[here](https://systempipe.org/sprwf-new/new.html).
 
 __Documentation__
 
@@ -20,6 +22,19 @@ To design, set up, and run workflows using systemPipeR, please consult:
   + [systemPipeRdata Manual](https://www.bioconductor.org/packages/devel/data/experiment/html/systemPipeRdata.html)
 
 A complete list of workflow templates and project information is available at [systempipe.org](https://systempipe.org/about/project/).
+
+__Workflow Information__
+
+Version dependencies defined in `manifest.yml`.
+
+| Field                    | Value            |
+| ------------------------ | ---------------- |
+| Workflow name            | `sprwf-new`      |
+| Version                  | `wf-1.1.1`       |
+| Required systemPipeR     | `>= 2.17.1`      |
+| Required systemPipeRdata | `>= 2.15.4`      |
+| Parameter repository     | `sprwfcmp-param` |
+| Data repository          | `sprwfcmp-data`  |
 
 
 __Download of Workflow__
