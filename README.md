@@ -11,11 +11,13 @@ __Overview__
 This is a versioned workflow template for conducting data analyses
 with the [systemPipeR Workflow Management
 System](https://systempipe.org/about/project/) (WMS). It ensures consistency
-through centrally maintained parameter and data packs, which are defined in
+through centrally maintained [param]() and [data]() packs, which are defined in
 `manifest.yml` and downloaded and installed during the setup process.
 
 Detailed information about this specific `sprwf-new` workflow is available 
 [here](https://systempipe.org/sprwf-new/new.html).
+
+> The download of the data pack (see `getData_gh`) is optional for some workflows.
 
 __Documentation__
 
