@@ -25,17 +25,6 @@ To design, set up, and run workflows using systemPipeR, please consult:
 
 👉 A complete list of workflow templates and project information is available at [systempipe.org](https://systempipe.org/about/project/).
 
-__Version dependencies defined in `manifest.yml`__
-
-| Field                    | Value            |
-| ------------------------ | ---------------- |
-| Workflow name            | `sprwf-new`      |
-| Version                  | `wf-1.1.1`       |
-| Required systemPipeR     | `>= 2.17.1`      |
-| Required systemPipeRdata | `>= 2.15.4`      |
-| Parameter repository     | `sprwfcmp-param` |
-| Data repository          | `sprwfcmp-data`  |
-
 
 __Quick Start (Recommended)__
 
@@ -52,6 +41,33 @@ genWorkenvir_gh(url = "https://github.com/systemPipeR/sprwf-new.git", mydirname 
 setwd("sprwf-new")
 getParam_gh()
 getData_gh()
+```
+
+Version dependencies defined in `manifest.yml`:
+
+| Field                    | Value            |
+| ------------------------ | ---------------- |
+| Workflow name            | `sprwf-new`      |
+| Version                  | `wf-1.1.1`       |
+| Required systemPipeR     | `>= 2.17.1`      |
+| Required systemPipeRdata | `>= 2.15.4`      |
+| Parameter repository     | `sprwfcmp-param` |
+| Data repository          | `sprwfcmp-data`  |
+
+
+The version enforcement (not recommended) can be overwritten as shown here:
+
+```
+genWorkenvir_gh(..., force_min_version = TRUE)
+```
+
+__Advanced Setup Options__
+
+The URLs of the `param` and `data` repos can be provided under the corresponding arguments. 
+
+```
+getParam_gh(param_repo = "https://github.com/systemPipeR/sprwfcmp-param")
+getData_gh(data_repo  = "https://github.com/systemPipeR/sprwfcmp-data")
 ```
 
 
