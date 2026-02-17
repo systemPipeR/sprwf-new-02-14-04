@@ -37,7 +37,9 @@ From R:
 gert::git_clone("<download_link>")
 ```
 
-Alternative R option that allows to populate `param` and `data` directories in separate steps.
+Alternative R-based setup that populates `param` and `data` directories of
+workflow environment in separate steps (no Git CLI required). For details 
+see: `?genWorkenvir_gh`, `?getParam_gh`, and `?getData_gh`.
 
 ```
 library(systemPipeRdata) 
