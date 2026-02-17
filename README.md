@@ -23,9 +23,7 @@ To design, set up, and run workflows using systemPipeR, please consult:
 
 A complete list of workflow templates and project information is available at [systempipe.org](https://systempipe.org/about/project/).
 
-__Workflow Information__
-
-Version dependencies defined in `manifest.yml`.
+__Version dependencies defined in `manifest.yml`
 
 | Field                    | Value            |
 | ------------------------ | ---------------- |
@@ -36,6 +34,23 @@ Version dependencies defined in `manifest.yml`.
 | Parameter repository     | `sprwfcmp-param` |
 | Data repository          | `sprwfcmp-data`  |
 
+
+__Quick Start (Recommended)__
+
+```
+library(systemPipeRdata)
+genWorkenvir_gh(url = "https://github.com/systemPipeR/sprwf-new.git", mydirname = "sprwf-new")
+setwd("sprwf-new")
+getParam_gh()
+getData_gh()
+```
+
+This will:
+
+  + Clone the workflow
+  + Enforce minimum package versions
+  + Install the exact tagged param/ and data/ releases
+  + Create a reproducible local workflow environment
 
 __Download of Workflow__
 
