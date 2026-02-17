@@ -4,10 +4,10 @@ name: sprwf-new
 version: "wf-1.1.1"
 
 systemPipeR:
-  bioc_min: "2.17.1"
+  bioc_min: "2.16.0"
 
 systemPipeRdata:
-  bioc_min: "2.15.4"
+  bioc_min: "2.14.5"
 
 param:
   name: sprwfcmp-param
