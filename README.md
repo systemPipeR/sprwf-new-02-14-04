@@ -6,6 +6,8 @@
   </a>
 </p>
 
+__Overview__
+
 This is a lightweight, versioned workflow template for conducting data analyses
 with the [systemPipeR Workflow Management
 System](https://systempipe.org/about/project/) (WMS). It ensures consistency
