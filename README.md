@@ -8,7 +8,7 @@
 
 __Overview__
 
-This is a lightweight, versioned workflow template for conducting data analyses
+This is a versioned workflow template for conducting data analyses
 with the [systemPipeR Workflow Management
 System](https://systempipe.org/about/project/) (WMS). It ensures consistency
 through centrally maintained parameter and data packs, which are defined in
