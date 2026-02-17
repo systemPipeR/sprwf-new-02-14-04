@@ -6,17 +6,14 @@
   </a>
 </p>
 
-> Lightweight, versioned workflow template with centrally maintained parameter and data packs for reproducible analysis.
-
-This repository provides a workflow template for the [systemPipeR Workflow Management System](https://systempipe.org/about/project/) (WMS).
-
-Unlike traditional workflow repositories, this template does not store tool configuration files (param/) or sample data (data/) directly.
-Instead, it references versioned releases of shared parameter and data repositories defined in `manifest.yml`. During setup, the required 
-tagged snapshots are installed locally to ensure reproducibility while keeping the repository lightweight.
+This lightweight, versioned workflow template is designed for reproducible
+analysis using the [systemPipeR Workflow Management System](https://systempipe.org/about/project/) (WMS). It ensures
+consistency by utilizing centrally downloaded parameter and data packs defined in `manifest.yml` that are installed locally 
+during the setup process. 
 
 Detailed information about this specific workflow is available [here](https://systempipe.org/sprwf-new/new.html).
 
-📚 Documentation
+__Documentation__
 
 To design, set up, and run workflows using systemPipeR, please consult:
   + [systemPipeR Manual](https://bioconductor.org/packages/devel/bioc/html/systemPipeR.html)
