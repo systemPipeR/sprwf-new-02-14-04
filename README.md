@@ -1,4 +1,4 @@
-## systemPipeRdata: Generic Workflow Template
+## Generic Workflow Template for systemPipeR WMS
 
 <p align="right">
   <a href="https://systempipe.org/sprwf-new/new.html">
@@ -6,18 +6,24 @@
   </a>
 </p>
 
+> Lightweight, versioned workflow template with centrally maintained parameter and data packs for reproducible analysis.
 
-This is a workflow template of the [systemPipeR Workflow Management System](https://systempipe.org/about/project/) (WMS).
+This repository provides a workflow template for the [systemPipeR Workflow Management System](https://systempipe.org/about/project/) (WMS).
+
+Unlike traditional workflow repositories, this template does not store tool configuration files (param/) or sample data (data/) directly.
+Instead, it references versioned releases of shared parameter and data repositories defined in `manifest.yml`. During setup, the required 
+tagged snapshots are installed locally to ensure reproducibility while keeping the repository lightweight.
+
 Detailed information about this specific workflow is available [here](https://systempipe.org/sprwf-new/new.html).
 
-To learn how to design, set up, and run workflows using systemPipeR, users want to consult the official user manuals:
+📚 Documentation
 
+To design, set up, and run workflows using systemPipeR, please consult:
   + [systemPipeR Manual](https://bioconductor.org/packages/devel/bioc/html/systemPipeR.html)
   + [systemPipeRdata Manual](https://www.bioconductor.org/packages/devel/data/experiment/html/systemPipeRdata.html)
 
-A list of all available workflow templates and additional project information
-can be found on the project's dedicated website:
-[systempipe.org](https://systempipe.org/about/project/).
+A complete list of workflow templates and project information is available at [systempipe.org](https://systempipe.org/about/project/).
+
 
 __Download of Workflow__
 
