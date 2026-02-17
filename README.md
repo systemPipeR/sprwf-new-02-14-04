@@ -30,7 +30,7 @@ __Quick Start (Recommended)__
 
 The following will:
 
-  + Clone the workflow (no Git CLI required)
+  + Clone the workflow using `gert` internally, which eliminates the need to install the Git CLI
   + Enforce minimum package versions
   + Install the exact tagged param/ and data/ releases
   + Create a reproducible local workflow environment
@@ -55,27 +55,30 @@ Version dependencies defined in `manifest.yml`:
 | Data repository          | `sprwfcmp-data`  |
 
 
-The version enforcement (not recommended) can be overwritten as shown here:
+The version enforcement (not recommended) can be overwritten via the `force_min_version` argument:
 
 ```
 genWorkenvir_gh(..., force_min_version = TRUE)
 ```
 
+For more information, consult the help pages: `?genWorkenvir_gh`, `?getParam_gh`, and `?getData_gh`.
+
 __Advanced Setup Options__
 
-The URLs of the `param` and `data` repos can be provided under the corresponding arguments. 
+The URLs of the `param` and `data` repos can be provided under the corresponding `*_repos` arguments. 
 
 ```
 getParam_gh(param_repo = "https://github.com/systemPipeR/sprwfcmp-param")
 getData_gh(data_repo  = "https://github.com/systemPipeR/sprwfcmp-data")
 ```
 
+__Command-line Option__
 
-__Download of Workflow__
-
-To obtain this workflow, run one of the following commands. The `<download_link>`
-is located under the green "Code" button on the top right of the repository,
-with the HTTPS option generally being the most straightforward for most users.
+Alternatively, the workflow repos can be cloned with the standard `git clone`
+command. This requires the install of the Git CLI. The `<download_link>` is
+located under the green "Code" button on the top right of the repository, with
+the HTTPS option generally being the most straightforward for most users.
+Downloading the repos a zip file is another option.
 
 From the command-line:
 
@@ -83,22 +86,5 @@ From the command-line:
 git clone <download_link>
 ```
 
-From R (no Git CLI required):
-
-```
-gert::git_clone("<download_link>")
-```
-
-Alternative R-based setup that populates the `param` and `data` directories of
-the downloaded workflow environment in separate steps (no Git CLI required). 
-For more information, consult the help pages: `?genWorkenvir_gh`, `?getParam_gh`, and `?getData_gh`.
-
-```
-library(systemPipeRdata) 
-if (packageVersion("systemPipeRdata") < "2.14.5") { stop("systemPipeRdata >= 2.14.5 is required.", call. = FALSE) }
-genWorkenvir_gh(url="https://github.com/systemPipeR/sprwf-new.git", "sprwf-new", force_min_version=FALSE)
-setwd("sprwf-new)
-getParam_gh(param_repo="https://github.com/systemPipeR/sprwfcmp-param.git")
-getData_gh(data_repo="https://github.com/systemPipeR/sprwfcmp-data.git")
-```
+After this the `param` and `data` directories need to be populated as shown above.  
 
