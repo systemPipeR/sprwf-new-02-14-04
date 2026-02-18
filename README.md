@@ -67,7 +67,7 @@ genWorkenvir_gh(..., force_min_version = TRUE)
 
 For more information, consult the help pages: `?genWorkenvir_gh`, `?getParam_gh`, and `?getData_gh`.
 
-__Advanced Setup Options__
+__Additional Options__
 
 To use other  `param` and `data` repos than the defaults, their URLs can be provided under the corresponding 
 `*_repos` arguments. 
@@ -77,7 +77,7 @@ getParam_gh(param_repo="https://github.com/systemPipeR/sprwfcmp-param")
 getData_gh(data_repo="https://github.com/systemPipeR/sprwfcmp-data")
 ```
 
-__Git CLI Option__
+__Git CLI Approach__
 
 Alternatively, the workflow repos can be cloned with the standard `git clone`
 command. Downloading the repos as a Zip files is another option. After this the
