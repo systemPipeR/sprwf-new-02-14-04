@@ -29,7 +29,7 @@ To design, set up, and run workflows using systemPipeR, please consult:
 👉 A complete list of workflow templates and project information is available at [systempipe.org](https://systempipe.org/about/project/).
 
 
-__Quick Start (Recommended)__
+__Quick Start__
 
 The following will:
 
