@@ -80,7 +80,7 @@ getData_gh(data_repo="https://github.com/systemPipeR/sprwfcmp-data")
 __Git CLI Approach__
 
 Alternatively, the workflow repos can be cloned with the standard `git clone`
-command. Downloading the repos as a Zip files is another option. After this the
+command. Downloading the repos as a Zip file is another option. After this the
 `param` and `data` directories need to be populated with the above `get*`
 commands, or by manually copying the corresponding directories from the
 `sprwfcmp-param` and `sprwfcmp-data` repositories.
