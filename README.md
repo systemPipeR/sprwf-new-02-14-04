@@ -22,7 +22,7 @@ Detailed information about this specific `sprwf-new` workflow is available
 
 __Documentation__
 
-To design, set up, and run workflows using systemPipeR, please consult:
+To design, set up, and run workflows using _systemPipeR_, please consult:
   + [systemPipeR Manual](https://bioconductor.org/packages/devel/bioc/html/systemPipeR.html)
   + [systemPipeRdata Manual](https://www.bioconductor.org/packages/devel/data/experiment/html/systemPipeRdata.html)
 
