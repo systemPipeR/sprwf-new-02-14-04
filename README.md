@@ -13,7 +13,7 @@ This is a versioned workflow template for conducting data analyses with the
 (WMS). It ensures consistency through centrally maintained
 [param](https://github.com/systemPipeR/sprwfcmp-param) and
 [data](https://github.com/systemPipeR/sprwfcmp-data) packs, which are defined
-in `manifest.yml` and downloaded and installed during the setup process.
+in [`manifest.yml`](./manifest.yml) and downloaded and installed during the setup process.
 
 Detailed information about this specific `sprwf-new` workflow is available 
 [here](https://systempipe.org/sprwf-new/new.html).
@@ -46,18 +46,6 @@ getParam_gh()
 getData_gh() # omit if sample data is not needed
 ```
 > Note: `param/` and `data/` directories are protected by default. If they already exist, they are backed up before new files are installed. See `?getParam_gh` and `?getData_gh` for overwrite options.
-
-The version dependencies are defined in `manifest.yml`:
-
-| Field                    | Value            |
-| ------------------------ | ---------------- |
-| Workflow name            | `sprwf-new`      |
-| Version                  | `wf-1.1.1`       |
-| Required systemPipeR     | `>= 2.17.1`      |
-| Required systemPipeRdata | `>= 2.15.4`      |
-| Parameter repository     | `sprwfcmp-param` |
-| Data repository          | `sprwfcmp-data`  |
-
 
 The version enforcement can be overwritten (not recommended) via the `force_min_version` argument:
 
